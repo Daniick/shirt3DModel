@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "node-version-alias": "^4.1.0"
+  }
+}
