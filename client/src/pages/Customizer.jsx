@@ -57,7 +57,7 @@ const Customizer = () => {
     try{
         // Call BACKEND
         setGeneratingImg(true)
-        const response = await fetch('http://localhost:8070/api/v1/dalle' , {
+        const response = await fetch('https://frist-3d-js-project.onrender.com/api/v1/dalle' , {
           method: 'POST',
           headers:{
             'Content-Type': 'application/json'
